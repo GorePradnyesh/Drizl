@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1B85511EDB2C0F002019ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B85501EDB2C0F002019ED /* AppDelegate.swift */; };
+		3F1B85561EDB2C10002019ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B85541EDB2C10002019ED /* Main.storyboard */; };
+		3F1B85591EDB2C10002019ED /* Drizl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B85571EDB2C10002019ED /* Drizl.xcdatamodeld */; };
+		3F1B855B1EDB2C10002019ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B855A1EDB2C10002019ED /* Assets.xcassets */; };
+		3F1B855E1EDB2C10002019ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B855C1EDB2C10002019ED /* LaunchScreen.storyboard */; };
+		3F1B85691EDB2C10002019ED /* DrizlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B85681EDB2C10002019ED /* DrizlTests.swift */; };
+		3F1B85741EDB2C10002019ED /* DrizlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B85731EDB2C10002019ED /* DrizlUITests.swift */; };
+		3F1B85821EDB2C4D002019ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B85811EDB2C4D002019ED /* MainViewController.swift */; };
+		3F1B85841EDB2C79002019ED /* LayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B85831EDB2C79002019ED /* LayoutConstraints.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1B85651EDB2C10002019ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1B85451EDB2C0F002019ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1B854C1EDB2C0F002019ED;
+			remoteInfo = Drizl;
+		};
+		3F1B85701EDB2C10002019ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1B85451EDB2C0F002019ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1B854C1EDB2C0F002019ED;
+			remoteInfo = Drizl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1B854D1EDB2C0F002019ED /* Drizl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drizl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1B85501EDB2C0F002019ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1B85551EDB2C10002019ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1B85581EDB2C10002019ED /* Drizl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drizl.xcdatamodel; sourceTree = "<group>"; };
+		3F1B855A1EDB2C10002019ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1B855D1EDB2C10002019ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1B855F1EDB2C10002019ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1B85641EDB2C10002019ED /* DrizlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrizlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1B85681EDB2C10002019ED /* DrizlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrizlTests.swift; sourceTree = "<group>"; };
+		3F1B856A1EDB2C10002019ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1B856F1EDB2C10002019ED /* DrizlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrizlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1B85731EDB2C10002019ED /* DrizlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrizlUITests.swift; sourceTree = "<group>"; };
+		3F1B85751EDB2C10002019ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1B85811EDB2C4D002019ED /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3F1B85831EDB2C79002019ED /* LayoutConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutConstraints.swift; path = Utils/UI/LayoutConstraints.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1B854A1EDB2C0F002019ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1B85611EDB2C10002019ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1B856C1EDB2C10002019ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1B85441EDB2C0F002019ED = {
+			isa = PBXGroup;
+			children = (
+				3F1B854F1EDB2C0F002019ED /* Drizl */,
+				3F1B85671EDB2C10002019ED /* DrizlTests */,
+				3F1B85721EDB2C10002019ED /* DrizlUITests */,
+				3F1B854E1EDB2C0F002019ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1B854E1EDB2C0F002019ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B854D1EDB2C0F002019ED /* Drizl.app */,
+				3F1B85641EDB2C10002019ED /* DrizlTests.xctest */,
+				3F1B856F1EDB2C10002019ED /* DrizlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1B854F1EDB2C0F002019ED /* Drizl */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B85831EDB2C79002019ED /* LayoutConstraints.swift */,
+				3F1B85811EDB2C4D002019ED /* MainViewController.swift */,
+				3F1B85501EDB2C0F002019ED /* AppDelegate.swift */,
+				3F1B85541EDB2C10002019ED /* Main.storyboard */,
+				3F1B855A1EDB2C10002019ED /* Assets.xcassets */,
+				3F1B855C1EDB2C10002019ED /* LaunchScreen.storyboard */,
+				3F1B855F1EDB2C10002019ED /* Info.plist */,
+				3F1B85571EDB2C10002019ED /* Drizl.xcdatamodeld */,
+			);
+			path = Drizl;
+			sourceTree = "<group>";
+		};
+		3F1B85671EDB2C10002019ED /* DrizlTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B85681EDB2C10002019ED /* DrizlTests.swift */,
+				3F1B856A1EDB2C10002019ED /* Info.plist */,
+			);
+			path = DrizlTests;
+			sourceTree = "<group>";
+		};
+		3F1B85721EDB2C10002019ED /* DrizlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B85731EDB2C10002019ED /* DrizlUITests.swift */,
+				3F1B85751EDB2C10002019ED /* Info.plist */,
+			);
+			path = DrizlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1B854C1EDB2C0F002019ED /* Drizl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1B85781EDB2C10002019ED /* Build configuration list for PBXNativeTarget "Drizl" */;
+			buildPhases = (
+				3F1B85491EDB2C0F002019ED /* Sources */,
+				3F1B854A1EDB2C0F002019ED /* Frameworks */,
+				3F1B854B1EDB2C0F002019ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drizl;
+			productName = Drizl;
+			productReference = 3F1B854D1EDB2C0F002019ED /* Drizl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1B85631EDB2C10002019ED /* DrizlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1B857B1EDB2C10002019ED /* Build configuration list for PBXNativeTarget "DrizlTests" */;
+			buildPhases = (
+				3F1B85601EDB2C10002019ED /* Sources */,
+				3F1B85611EDB2C10002019ED /* Frameworks */,
+				3F1B85621EDB2C10002019ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1B85661EDB2C10002019ED /* PBXTargetDependency */,
+			);
+			name = DrizlTests;
+			productName = DrizlTests;
+			productReference = 3F1B85641EDB2C10002019ED /* DrizlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1B856E1EDB2C10002019ED /* DrizlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1B857E1EDB2C10002019ED /* Build configuration list for PBXNativeTarget "DrizlUITests" */;
+			buildPhases = (
+				3F1B856B1EDB2C10002019ED /* Sources */,
+				3F1B856C1EDB2C10002019ED /* Frameworks */,
+				3F1B856D1EDB2C10002019ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1B85711EDB2C10002019ED /* PBXTargetDependency */,
+			);
+			name = DrizlUITests;
+			productName = DrizlUITests;
+			productReference = 3F1B856F1EDB2C10002019ED /* DrizlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1B85451EDB2C0F002019ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pradnyesh Gore";
+				TargetAttributes = {
+					3F1B854C1EDB2C0F002019ED = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					3F1B85631EDB2C10002019ED = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1B854C1EDB2C0F002019ED;
+					};
+					3F1B856E1EDB2C10002019ED = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1B854C1EDB2C0F002019ED;
+					};
+				};
+			};
+			buildConfigurationList = 3F1B85481EDB2C0F002019ED /* Build configuration list for PBXProject "Drizl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1B85441EDB2C0F002019ED;
+			productRefGroup = 3F1B854E1EDB2C0F002019ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1B854C1EDB2C0F002019ED /* Drizl */,
+				3F1B85631EDB2C10002019ED /* DrizlTests */,
+				3F1B856E1EDB2C10002019ED /* DrizlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1B854B1EDB2C0F002019ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B855E1EDB2C10002019ED /* LaunchScreen.storyboard in Resources */,
+				3F1B855B1EDB2C10002019ED /* Assets.xcassets in Resources */,
+				3F1B85561EDB2C10002019ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1B85621EDB2C10002019ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1B856D1EDB2C10002019ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1B85491EDB2C0F002019ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B85841EDB2C79002019ED /* LayoutConstraints.swift in Sources */,
+				3F1B85821EDB2C4D002019ED /* MainViewController.swift in Sources */,
+				3F1B85511EDB2C0F002019ED /* AppDelegate.swift in Sources */,
+				3F1B85591EDB2C10002019ED /* Drizl.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1B85601EDB2C10002019ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B85691EDB2C10002019ED /* DrizlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1B856B1EDB2C10002019ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1B85741EDB2C10002019ED /* DrizlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1B85661EDB2C10002019ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1B854C1EDB2C0F002019ED /* Drizl */;
+			targetProxy = 3F1B85651EDB2C10002019ED /* PBXContainerItemProxy */;
+		};
+		3F1B85711EDB2C10002019ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1B854C1EDB2C0F002019ED /* Drizl */;
+			targetProxy = 3F1B85701EDB2C10002019ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1B85541EDB2C10002019ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1B85551EDB2C10002019ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1B855C1EDB2C10002019ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1B855D1EDB2C10002019ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1B85761EDB2C10002019ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1B85771EDB2C10002019ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1B85791EDB2C10002019ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Drizl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paje.Drizl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F1B857A1EDB2C10002019ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Drizl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paje.Drizl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F1B857C1EDB2C10002019ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrizlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paje.DrizlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drizl.app/Drizl";
+			};
+			name = Debug;
+		};
+		3F1B857D1EDB2C10002019ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrizlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paje.DrizlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drizl.app/Drizl";
+			};
+			name = Release;
+		};
+		3F1B857F1EDB2C10002019ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DrizlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paje.DrizlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Drizl;
+			};
+			name = Debug;
+		};
+		3F1B85801EDB2C10002019ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DrizlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paje.DrizlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Drizl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1B85481EDB2C0F002019ED /* Build configuration list for PBXProject "Drizl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1B85761EDB2C10002019ED /* Debug */,
+				3F1B85771EDB2C10002019ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1B85781EDB2C10002019ED /* Build configuration list for PBXNativeTarget "Drizl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1B85791EDB2C10002019ED /* Debug */,
+				3F1B857A1EDB2C10002019ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F1B857B1EDB2C10002019ED /* Build configuration list for PBXNativeTarget "DrizlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1B857C1EDB2C10002019ED /* Debug */,
+				3F1B857D1EDB2C10002019ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F1B857E1EDB2C10002019ED /* Build configuration list for PBXNativeTarget "DrizlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1B857F1EDB2C10002019ED /* Debug */,
+				3F1B85801EDB2C10002019ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F1B85571EDB2C10002019ED /* Drizl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F1B85581EDB2C10002019ED /* Drizl.xcdatamodel */,
+			);
+			currentVersion = 3F1B85581EDB2C10002019ED /* Drizl.xcdatamodel */;
+			path = Drizl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F1B85451EDB2C0F002019ED /* Project object */;
+}
